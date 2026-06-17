@@ -7,7 +7,26 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<h1>Feedback Form</h1>
+	<form method="post">
+		<label for="name">Name</label>
+		<div class="container">
+		  <input type="text" id="name" min="3" max="50" required>
+		</div>
+		<label for="portfolio">Portfolio</label>
+		<div class="container">
+		 <input type="url" id="portfolio" required>
+		</div>
+		<label for="favColor">Favorite Color</label>
+		<div class="container">
+		 <input type="color" id="favColor">
+		</div>
+		<label for="likeness">Likeness</label>
+		<div class="container">
+		 <input type="range" id="likeness" min="1" max="100">
+		</div>
+		<input type="submit" value="Submit">
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
